@@ -1,0 +1,32 @@
+.main-footer {
+    background-color: $dark-color;
+    width: 100%;
+}
+
+.main-footer-logo {
+    display: inline-block;
+    width: 20%;
+    height: 100px;
+    padding-top: 45px;
+}
+
+.main-footer-box {
+
+}
+
+.main-footer-box-link {
+    text-transform: uppercase;
+    color: $main-color-second;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 25px;
+    text-decoration: none;
+    &:hover {
+        color: $main-color-first;
+    }
+}
+
+.main-footer-text {
+    color: $light-color;
+    float: right;
+}

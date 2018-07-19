@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main {
+    position: relative;
+}
+
+.main-background {
+    width: 100%;
+    height: 910px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: -1;
+    background-image: url("../images/main-banner.jpg");
+    filter: brightness(0.6);
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+
+}
+
+.row-col-1-3 {
+    width: 33.333%;
+    height: 550px;
+    float: left;
+    padding: 0 10px;
+}
+
+.row-col-1-4 {
+    width: 25%;
+    height: 500px;
+    float: left;
+    padding: 0 30px;
+}
+
+.row-col-1-2 {
+    width: 50%;
+    height: 480px;
+    float: left;
+    padding: 0 15px;
+}
+
+.row-col-1-5 {
+    width: 20%;
+    height: 150px;
+    float: left;
+}
+
+body {
+    font-family: Nunito, sans-serif;
+}

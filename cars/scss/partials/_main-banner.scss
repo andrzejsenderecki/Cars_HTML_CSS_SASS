@@ -1,0 +1,84 @@
+.main-banner {
+    width: 100%;
+    height: 810px;
+    padding-top: 250px;
+    position: relative;
+}
+
+.main-banner-title {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 110px;
+    color: $main-color-second;
+    letter-spacing: -4px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 0 20px rgba($main-color-third,0.5);
+}
+
+.main-banner-text {
+    padding: 0 100px;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 20px;
+    color: rgba($main-color-second,0.9);
+    font-weight: lighter;
+}
+
+.main-banner-btn-position {o
+    margin-top: 80px;
+    margin-left: 330px;
+}
+
+.main-banner-btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: $main-color-first;
+    padding: 20px 50px;
+    border-radius: 40px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.main-banner-btn-red {
+    color: $main-color-second;
+    background-color: $main-color-first;
+    &:hover {
+        background-color: $medium-color;
+    }
+}
+
+.main-banner-btn-white {
+    color: $main-color-first;
+    background-color: $main-color-second;
+    &:hover {
+        color: $main-color-second;
+        background-color: $medium-color;
+    }
+}
+
+.main-banner-arrow {
+    width: 60px;
+    height: 60px;
+    background-color: $main-color-first;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 780px;
+    left: 610px;
+    img {
+        padding-top: 30px;
+        padding-left: 13px;
+        transform: rotate(-45deg);
+        position: absolute;
+    }
+}
+
+.main-banner-arrow-back {
+    width: 80px;
+    height: 80px;
+    background-color: rgba($main-color-second,0.3);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 770px;
+    left: 600px;
+}
