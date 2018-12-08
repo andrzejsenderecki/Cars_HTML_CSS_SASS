@@ -1,8 +1,8 @@
-# cars_html_css
-https://andrzejsenderecki.github.io/Cars_HTML_CSS_SASS/cars/
-
-
 <h2>Strona internetowa Cars</h2>
+
+Link do projektu:
+
+https://andrzejsenderecki.github.io/Cars_HTML_CSS_SASS/cars/
 
 Strona została wykonana na podstawie projektu graficznego.
 
