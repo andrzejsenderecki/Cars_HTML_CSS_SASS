@@ -1,7 +1,7 @@
 # cars_html_css
 Projekt graficzny udostępniony przez Coders Lab w ramach kursu "JavaScript developer: React".
 
-https://andrzejsenderecki.github.io/coderslab_cars_html_css/cars
+https://andrzejsenderecki.github.io/Cars_HTML_CSS_SASS/cars/
 
 
 <h2>Strona internetowa Cars</h2>
